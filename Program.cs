@@ -11,7 +11,7 @@ namespace SumOfEvenInArray
 
             for (int i = 0; i < arrayOfNumbers.Length; i++)
             {
-                sum = (arrayOfNumbers[i] % 2 == 0) ? sum + arrayOfNumbers[i] : sum;
+                sum = (arrayOfNumbers[i] % 2 == 0) ? sum += arrayOfNumbers[i] : sum;
             }
 
             Console.WriteLine("Сумма четных чисел в массиве равна " + sum);
